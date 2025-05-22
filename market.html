@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f8f9fa; }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #27ae60;
+      padding: 10px 20px;
+      color: white;
+    }
+    .logo { font-size: 28px; font-weight: bold; }
+    .search-bar input {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      width: 250px;
+    }
+
+    /* Navigation */
+    nav {
+      background: #219150;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background: #1c7e43;
+    }
+
+    /* Carousel */
+    .carousel {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      height: 300px;
+    }
+    .carousel img {
+      width: 100%;
+      object-fit: cover;
+      animation: slide 12s infinite;
+    }
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      33% { transform: translateX(-100%); }
+      66% { transform: translateX(-200%); }
+      100% { transform: translateX(0); }
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .products, .reviews {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product, .review {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    footer {
+      background: #27ae60;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 60px;
+  height: 70px;
+  margin-right: 10px;
+  }
+
+  </style>
+</head>
+<body>
+  <header>
+      <div class="logo">
+  <img src="C:\Users\sanku\Downloads\ChatGPT Image May 13, 2025, 01_39_24 PM.png" alt="SRK Mart" class="logo-img">
+  <span>SRKMART</span>
+</div>
+   
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products...">
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+   <a href="#contact">Rewards</a>
+   <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact">Payments</a>
+
+  </nav>
+
+  <div class="carousel">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.qanS89Df35ekmbpmxevIgQHaEK&pid=Api&P=0&h=180" alt="carousel1">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.TLnAjZeghpqjliFtQ9zaxgHaFb&pid=Api&P=0&h=180" alt="carousel2">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.IRA2znvgvzH8U7g2pEGnFQHaE7&pid=Api&P=0&h=180" alt="carousel3">
+<img src="https://tse3.mm.bing.net/th?id=OIP.jkztupo48Bn-RCXXyhnD0gHaEK&pid=Api&P=0&h=180" alt="carousel3">
+
+  </div>
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.-6mdzKQBUFbuUznSMUsP7gHaES&pid=Api&P=0&h=180" alt="Milk">
+        <h3>Dairy Products</h3>
+        <p>60/-</p>
+      </div>
+      <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.tyCTsQF3Z2__YgeoSV4rbgHaDf&pid=Api&P=0&h=180" alt="Fruits">
+        <h3>Organic Fruits</h3>
+        <p>50/-</p>
+      </div>
+      <div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.csy1JSFZzxD_DiikzJqk6gHaFc&pid=Api&P=0&h=180" alt="Vegetables">
+        <h3>Green Veggies</h3>
+        <p>10/-</p>
+      </div>
+      <div class="product">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.nuouzaMNsIEaTxgFsiHUzAHaFj&pid=Api&P=0&h=180" alt="Snacks">
+        <h3>Healthy Snacks</h3>
+        <p>30/-</p>
+      </div>
+<div class="product">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.7PeTP7XRcu15s4UL1hbBaQHaE8&pid=Api&P=0&h=180" alt="Chocalets">
+        <h3>Chocalets</h3>
+        <p>10/-</p>
+      </div>
+<div class="product">
+<img src="https://tse1.mm.bing.net/th?id=OIP.3j-WFrbVWmFpBkwGgFWDrgHaEK&pid=Api&P=0&h=180" alt="Chips">
+        <h3>Chips</h3>
+        <p>10/-</p>
+      </div>
+<div class="product">
+<img src="https://tse2.mm.bing.net/th?id=OIP.uXFPUPvFlkp1RKId_SWa6gHaHa&pid=Api&P=0&h=180" alt="Snakes">
+        <h3>homemade snakes</h3>
+        <p>80/-</p>
+      </div>
+<div class="product">
+<img src="https://tse4.mm.bing.net/th?id=OIP.aEppTxdc7DsE1vTmJHGN3wHaFc&pid=Api&P=0&h=180" alt="soft drinks">
+        <h3>soft drinks</h3>
+        <p>100/-</p>
+      </div>
+<div class="product">
+<img src="https://tse4.mm.bing.net/th?id=OIP.PKWrd9XR_lUC5_Q7OCTz9wHaFX&pid=Api&P=0&h=180" alt="fruit juices">
+        <h3>Friut Juices</h3>
+        <p>15/-</p>
+      </div>
+<div class="product">
+<img src="https://tse2.mm.bing.net/th?id=OIP.7JKb5jImZEd1YwAw7qlgVgHaHu&pid=Api&P=0&h=180" alt="Gift Items">
+        <h3>Gift Items</h3>
+        <p>150/-</p>
+      </div>
+
+
+<div class="product">
+<img src="https://tse1.mm.bing.net/th?id=OIP.lCeB9qKG067CExCpa_lQSwHaIU&pid=Api&P=0&h=180" alt="Note Books">
+        <h3>Note Books</h3>
+        <p>25/-</p>
+      </div>
+
+<div class="product">
+<img src="https://tse4.mm.bing.net/th?id=OIP.zIOSaE7MeqoILIZD9WvGmAHaGD&pid=Api&P=0&h=180" alt="Phone Pouchs">
+        <h3>Phone Pouchs</h3>
+        <p>150/-</p>
+      </div>
+<div class="product">
+<img src="https://tse4.mm.bing.net/th?id=OIP.GIL2I2jEJjtxrGFCQQ6PkAHaFj&pid=Api&P=0&h=180" alt="Masala products">
+        <h3>Masala products</h3>
+        <p>15/-</p>
+      </div>
+<div class="product">
+<img src="https://tse2.mm.bing.net/th?id=OIP._75LvajNafUkDYKIf0yoqgHaFj&pid=Api&P=0&h=180" alt="Dry Fruits">
+        <h3>Dry Fruits</h3>
+        <p>200/-</p>
+      </div>
+
+ </div>
+  </section>
+<section id="about">
+    <h2>About Us</h2>
+    <p>SRKMart is a leading neighborhood supermarket committed to quality, value, and convenience.  
+     We offer a wide selection of fresh produce, groceries, and household essentials.  
+     Our team is dedicated to providing exceptional service and a seamless shopping experience.  
+     We partner with trusted suppliers to ensure freshness and sustainability.  
+     At SRKMart, your satisfaction is our top priority every day.SRKMart is a trusted supermarket dedicated to providing fresh, affordable, and quality groceries. We are committed to exceptional service and customer satisfaction every day.We’re more than just a supermarket — we’re part of your community. FreshMart supports local farms and brings you hand-picked, healthy food for your family.</p>
+  </section>
+
+<section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="reviews">
+      <div class="review">
+        <p>"Great quality and friendly staff! I love shopping here."</p>
+        <strong>- Sarah</strong>
+      </div>
+      <div class="review">
+        <p>"Always fresh and well-stocked. Highly recommend!"</p>
+        <strong>- John</strong>
+      </div>
+      <div class="review">
+        <p>"Affordable and convenient. My go-to supermarket."</p>
+        <strong>- Priya</strong>
+      </div>
+    </div>
+  </section>
+</section>
+<section id="rewards" style="background-color: #e9f7ef; padding: 40px 20px; text-align: center;">
+  <h2>Join Our Rewards Program</h2>
+  <p style="max-width: 600px; margin: 0 auto; font-size: 16px;">
+    Sign up for the FreshMart Rewards Program and start earning points every time you shop. 
+    Redeem points for exclusive discounts, special offers, and free products!
+  </p>
+  <div style="margin-top: 20px;">
+    <button style="padding: 10px 20px; background-color: #27ae60; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Sign Up Now
+    </button>
+  </div>
+</section>
+<section id="payments" style="padding: 40px 20px; text-align: center; background-color: #f4f4f4;">
+  <h2>We Accept</h2>
+  <p style="margin-bottom: 20px;">Make secure online payments with your preferred method</p>
+  
+  <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.G5Fk5mZGlhgNC7wNqCe7HQHaHa&pid=Api&P=0&h=180" alt="PhonePe" width="100" />
+    <img src="https://tse4.mm.bing.net/th?id=OIP.jMhj_X_ez3BeEK04KyLnZgHaHa&pid=Api&P=0&h=180" alt="Google Pay" width="60" />
+    <img src="https://tse4.mm.bing.net/th?id=OIP.x0zf9xSUiWGweUay3cLSVQHaHa&pid=Api&P=0&h=180" alt="Paytm" width="100" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" width="100" />
+  </div>
+</section>
+<section id="social-media" style="padding: 40px 20px; text-align: center; background-color: #ffffff;">
+  <h2>Follow Us on Social Media</h2>
+  <p>Stay connected for the latest offers, updates, and tips!</p>
+  
+  <div style="margin-top: 20px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+    <a href="https://facebook.com/YourPage" target="_blank">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.B1hpCXHYUBPSso6W4q9XpgHaHa&pid=Api&P=0&h=180" alt="Facebook" width="40">
+    </a>
+    <a href="https://instagram.com/YourPage" target="_blank">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.JtmXSh_uyZBaTg1eXd-NtgHaHa&pid=Api&P=0&h=180" alt="Instagram" width="40">
+    </a>
+    <a href="https://twitter.com/YourPage" target="_blank">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.HOXFpdfP03VBY3yooSei9AHaHa&pid=Api&P=0&h=180" alt="Twitter" width="40">
+    </a>
+    <a href="https://youtube.com/YourPage" target="_blank">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.kA13Itmxev0ytEqrJf_f1gHaHa&pid=Api&P=0&h=180" alt="YouTube" width="40">
+    </a>
+  </div>
+
+  </div>
+
+</section>
+
+
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Have questions or feedback? We'd love to hear from you.</p>
+  <p>Email: srkmart@gmail.com</p>
+  <p>Phone: 9182333930</p>
+  <p>Address: 123 Green Street, Freshville, FM 45678</p>
+  <p>Store Hours: Mon–Sat: 8:00 AM – 9:00 PM | Sun: 9:00 AM – 6:00 PM</p>
+</section>
+
+     
+
+  <footer>
+    &copy;  SRK Mart & Supermarket. All rights reserved.
+  </footer>
+</body>
+</html>
